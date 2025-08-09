@@ -14,7 +14,7 @@
         };
 
         $.ajax({
-            url: 'https://script.google.com/macros/s/AKfycbzEm2P_lg6uG2U3jP8_UZznWzBjIvKauJp1EAmhCq5otvfU2N2Lh7ipTKCbGITCvjTY/exec',
+            url: '/api/save',
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(formData)
