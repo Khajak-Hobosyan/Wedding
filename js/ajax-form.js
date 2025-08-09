@@ -14,7 +14,7 @@
         };
 
         $.ajax({
-            url: 'js/save',
+            url: '/api/save',
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(formData)
